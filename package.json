@@ -1,0 +1,35 @@
+{
+  "name": "next-full-stack",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "15.0.1",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@eslint-react/eslint-plugin": "^1.15.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@types/node": "^22",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9",
+    "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "postcss": "^8",
+    "sass-embedded": "^1.80.4",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5"
+  }
+}
